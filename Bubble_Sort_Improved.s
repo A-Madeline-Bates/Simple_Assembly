@@ -1,12 +1,12 @@
 @Take a sequence of numbers and perform a bubble sort on them.
 
 .data
-.align 2
+.align 4
 numarr:
     .byte 5, 6, 2, 3, 9, 9, 0, 1
 
 .text
-.align 2
+.align 4
 .global _start
 
 _start:
